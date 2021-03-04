@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <!--icons-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+        /*start of the header*/
+        .header{
+            top: 0;
+            background:#08526d;
+            width: 100%;
+            height: 75px;
+            position: fixed;
+        }
+        .header .icon-one{
+            color:white;
+            font-size: 20px;
+            padding-left: 8px;
+        }
+        .header h1{
+            margin-left: 36px;
+            color: #FFF8DC;
+            font-size: 35px;
+            font-weight: lighter;
+            font-style: oblique;
+            float: left;
+        }
+        .header p{  
+           float: right;
+           margin-right: 145px;
+           color: #FFF8DC;
+           font-style: oblique;
+           font-size: 20px;
+           margin-top: 26px;
+        }
+        .header p span{
+           border: 1px solid #8B0000;
+           padding: 5px 10px;
+        }
+        /*end of the header*/
+        /*start of list item*/
+        .item-list{
+            top: 75px;
+            position: fixed;
+           background: #ec1c23;
+           width: 20%;
+           height: 562px;
+           padding-bottom: 20px;
+           margin-left: 0px;
+           float: left;
+           overflow:scroll;
+        }
+        .item-list ul{
+            list-style-type: none;
+        }
+        .item-list ul li{
+            text-align: center;
+            margin-left: -40px;
+            padding: 5px 10px;
+        }
+        .item-list ul .li-over a{
+            padding: 5px 10px;
+            text-align: center;
+            margin-left: -40px;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 0px;
+            font-weight: lighter;
+            color: white; 
+            margin-bottom: 20px;   
+        }
+        .item-list ul .li-over:hover{
+            padding: 5px 10px;
+            text-align: center;
+            margin-left: -40px;
+            background-color: #006080;
+            font-size: 20px;
+            font-weight: lighter;
+            color: white;   
+        }
+        
+        .item-list ul .li-over:active,
+        .item-list ul .li-over:focus{
+            padding: 5px 10px;
+            text-align: center;
+            margin-left: -40px;
+            background-color: #eaeafb;
+            font-size: 20px;
+            font-weight: lighter;
+            color: white;   
+        }
+        .item-list h2{
+            
+           color: #66ccff;
+           font-size: 20px;
+           font-weight: bold;
+        }
+        .video-one {
+           width: 80%;
+           height: 575px;
+           top: 75px;
+           float: right;
+           position: fixed;
+           margin-left: 268px;
+}
+        /*end of list item*/
+
+        
+        /*start department of means wear*/
+        .latest-posts{
+            padding: 0 0 100px;
+        }
+        .latest-posts h2{
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            margin-top: 400px;
+            margin-left: 265px
+        }
+        .latest-posts .section-desc{
+            text-align: center;
+            line-height: 1.6;
+            font-size: 20px;
+            width: 80%;
+            margin: 0 auto 50px;
+            margin-left: 265px;
+            color: #6a6a6a;
+        }
+        .latest-posts .card{
+            float: left;
+            margin-left: 200px;
+            width: 20%;
+            border: 1px solid #6a6a6a;
+            margin-bottom: 30px;
+        }
+        .latest-posts h6{
+            text-align: center;
+            font-size: 30px;
+            margin-top: -7px;
+            background: #ec1c23;
+            color: white;
+            padding: 5px 0px;
+        }
+        .latest-posts .special{
+            background-color: #08526d;
+            margin-top: -17px;
+        }
+        .latest-posts .card p{
+            margin-top: -20px;
+            color: #787878;
+            margin-bottom: 14px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .latest-posts .card .card-title{
+            text-align: center;
+            font-size: 25px;
+            line-height: 1.5;
+            color: #08526d;
+        }
+        
+        .latest-posts .card button{
+            margin-left: 98px;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 15px;
+            padding: 8px 17px;
+            background: #08526d;
+            border: 1px solid #08526d;
+        }
+        /*end latest posts*/
+        
+        /*end department of means wear*/
+    </style>
+</head>
+<body>
+    <!--start of the header-->
+    <div class="container">
+        <div class="header">
+            <h1>For <span>u</span><i class="far fa-heart icon-one"></i></h1>
+            <p>For All Tastes! <span>Get Quote</span></p>
+        </div>
+    </div>
+    <!--end of the header-->
+    <!--start of the list-->
+    <div class="container-one">
+        <div class="item-list">
+            <ul> <h2><i class="fab fa-angellist"></i> MORE OPTIONS</h2>
+                <li class="li-over"> <a href="#">Overview</a> </li> <br>
+                <li class="li-over"> <a href="men.html">Clothes Men</a> </li> <br>
+                <li class="li-over"> <a href="women.html">Clothes Womens</a> </li> <br>
+                <li class="li-over"> <a href="shoes.html">Department of Shoes</a> </li> <br>
+                <li class="li-over"> <a href="acessories.html">Department OfAccessories</a> </li> <br>
+                <li class="li-over"> <a href="contact.html">Contact Us</a> </li> <br>
+              </ul>
+        </div>
+        
+            <video class="video-one" controls>
+                <source src="jumia.mp4">
+            </video> 
+    </div>
+    <!--end of the list-->
+    
+</body>
+</html>
